@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Оцінка Уроку</title>
+  </head>
+  <body>
+    <noscript>Вам потрібно увімкнути JavaScript для запуску цієї програми.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
+<div id="root"></div>
+<script>
+  // This script is used to load the React app
+  window.addEventListener('load', () => {
+    const root = document.getElementById('root');
+    if (root) {
+      root.innerHTML = '<h1>Завантаження програми...</h1>';
+    }
+  });
+</script>
+<script src="%PUBLIC_URL%/static/js/bundle.js"></script>
+<script>
+  // This script is used to initialize the React app
+  window.addEventListener('load', () => {
+    const root = document.getElementById('root');
+    if (root) {
+      root.innerHTML = '<h1>Завантаження програми...</h1>';
+      // Assuming React and ReactDOM are globally available
+      ReactDOM.render(
+        React.createElement('div', null, 'Вітаємо у вашій програмі!'),
+        root
+      );
+    }
+  });
+</script>
+<script>
+  // This script is used to handle any additional initialization
+  window.addEventListener('load', () => {
+    console.log('Програма завантажена успішно!');
+    const root = document.getElementById('root');
+    if (root) {
+      root.innerHTML = '<h1>Програма готова до використання!</h1>';
+    }
+  });
+</script>
+<script>
+  // This script is used to handle any additional functionality
+  window.addEventListener('load', () => {
+    console.log('Додаткова функціональність завантажена!');
+    const root = document.getElementById('root');
+    if (root) {
+      root.innerHTML = '<h1>Додаткова функціональність готова!</h1>';
+    }               
+  });
+</script>       
+  --> 
+  <script src="%PUBLIC_URL%/static/js/bundle.js"></script>  
+  <script>
+    // This script is used to initialize the React app
+    window.addEventListener('load', () => {
+      const root = document.getElementById('root');
+      if (root) {
+        root.innerHTML = '<h1>Завантаження програми...</h1>';
+        // Assuming React and ReactDOM are globally available
+        ReactDOM.render(
+          React.createElement('div', null, 'Вітаємо у вашій програмі!'),
+          root
+        );
+      }
+    });
+  </script> 
